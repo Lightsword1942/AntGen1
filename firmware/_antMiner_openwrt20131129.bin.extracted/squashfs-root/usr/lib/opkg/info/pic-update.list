@@ -1,0 +1,4 @@
+/etc/config/miner_pic.hex
+/usr/sbin/pic-update
+/etc/init.d/pic-update
+/etc/config/pic-update

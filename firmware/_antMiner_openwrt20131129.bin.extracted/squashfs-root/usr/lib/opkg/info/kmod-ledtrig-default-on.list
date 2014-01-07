@@ -1,0 +1,3 @@
+/etc/modules-boot.d/50-ledtrig-default-on
+/lib/modules/3.10.12/ledtrig-default-on.ko
+/etc/modules.d/50-ledtrig-default-on

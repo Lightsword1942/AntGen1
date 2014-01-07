@@ -1,0 +1,9 @@
+Package: luci-i18n-chinese
+Version: svn-r9909-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 19738
+Description:  Chinese (by Chinese Translators)

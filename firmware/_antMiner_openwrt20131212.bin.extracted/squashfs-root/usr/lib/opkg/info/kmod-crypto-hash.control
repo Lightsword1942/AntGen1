@@ -1,0 +1,10 @@
+Package: kmod-crypto-hash
+Version: 3.10.12-1
+Depends: kernel (=3.10.12-1-a7214d0221355fb68288e7a77bac1196), kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ar71xx
+Installed-Size: 5973
+Description:  CryptoAPI hash support

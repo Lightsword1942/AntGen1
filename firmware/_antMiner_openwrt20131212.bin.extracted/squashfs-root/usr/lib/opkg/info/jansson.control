@@ -1,0 +1,10 @@
+Package: jansson
+Version: 2.2.1-1
+Depends: libc
+Source: feeds/packages/libs/jansson
+SourceFile: jansson-2.2.1.tar.gz
+SourceURL: http://www.digip.org/jansson/releases/
+Section: libs
+Architecture: ar71xx
+Installed-Size: 16609
+Description:  JSON library

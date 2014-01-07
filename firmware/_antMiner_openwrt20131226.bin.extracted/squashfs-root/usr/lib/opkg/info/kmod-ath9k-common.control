@@ -1,0 +1,11 @@
+Package: kmod-ath9k-common
+Version: 3.10.12+2013-06-27-1
+Depends: kernel (=3.10.12-1-a7214d0221355fb68288e7a77bac1196), kmod-ath
+Source: package/kernel/mac80211
+SourceFile: compat-wireless-2013-06-27.1.tar.bz2
+SourceURL: http://mirror2.openwrt.org/sources
+Section: kernel
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 117911
+Description:  Atheros 802.11n wireless devices (common code for ath9k and ath9k_htc)

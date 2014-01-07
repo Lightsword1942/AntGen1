@@ -1,0 +1,5 @@
+/lib/modules/3.10.12/bitmain-asic.ko
+/lib/modules/3.10.12/usb-bitmain.ko
+/etc/modules.d/30-bitmain-asic
+/etc/modules-boot.d/30-bitmain-asic
+/lib/modules/3.10.12/pic-update.ko
