@@ -1,0 +1,883 @@
+Package: luci-lib-sys
+Version: svn-r9909-1
+Depends: libc
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: libuci-lua
+Version: 2013-06-11.1-1
+Depends: libc, libuci, liblua
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: libc
+Version: 0.9.33.2-1
+Depends: libgcc
+Provides:
+Status: install hold installed
+Essential: yes
+Architecture: ar71xx
+Installed-Time: 1405046539
+Auto-Installed: yes
+
+Package: opkg
+Version: 618-3
+Depends: libc
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Conffiles:
+ /etc/opkg.conf 4a4c5f0a0d5f686a69b29db89c1a4ebb
+Installed-Time: 1405046541
+
+Package: kmod-usb-core
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196), kmod-nls-base
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: libpthread
+Version: 0.9.33.2-1
+Depends: libgcc
+Provides:
+Status: install hold installed
+Essential: yes
+Architecture: ar71xx
+Installed-Time: 1405046539
+Auto-Installed: yes
+
+Package: ubus
+Version: 2013-08-08-b20a8a01c7faea5bcc9d34d10dcf7736589021b8
+Depends: libc, libubus, libblobmsg-json, ubusd
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046539
+Auto-Installed: yes
+
+Package: iw
+Version: 3.10-1
+Depends: libc, libnl-tiny
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: kmod-crypto-manager
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196), kmod-crypto-hash, kmod-crypto-pcompress, kmod-crypto-core
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: kmod-crypto-pcompress
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196), kmod-crypto-core
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: luci-mod-admin-core
+Version: svn-r9909-1
+Depends: libc, luci-lib-web, luci-proto-core, luci-i18n-english
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046541
+
+Package: busybox
+Version: 1.19.4-7
+Depends: libc
+Provides:
+Status: install user installed
+Essential: yes
+Architecture: ar71xx
+Installed-Time: 1405046539
+
+Package: libubus-lua
+Version: 2013-08-08-b20a8a01c7faea5bcc9d34d10dcf7736589021b8
+Depends: libc, libubus, liblua
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: kmod-crypto-hash
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196), kmod-crypto-core
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: libiwinfo-lua
+Version: 46
+Depends: libc, libiwinfo, liblua
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: swconfig
+Version: 10
+Depends: libc, libuci, libnl-tiny
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046541
+
+Package: libiwinfo
+Version: 46
+Depends: libc, libnl-tiny
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: libcurl
+Version: 7.29.0-1
+Depends: libc, zlib
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046539
+Auto-Installed: yes
+
+Package: kmod-lib-crc-ccitt
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196)
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: luci-theme-openwrt
+Version: svn-r9909-1
+Depends: libc, luci-theme-base
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046541
+
+Package: luci-theme-bootstrap
+Version: svn-r9909-1
+Depends: libc, luci-theme-base
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046541
+
+Package: kmod-ipt-conntrack
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196), kmod-ipt-core
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: base-files
+Version: 146-r38031
+Depends: libc, netifd, procd
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Conffiles:
+ /etc/hosts 0eea71665fb6890c06421fd13aa3f849
+ /etc/inittab 33da9049fd292d4f373c3df77a50c2dc
+ /etc/group 4a116d818b2f49e14939d581ec786de1
+ /etc/passwd 8a31e6d3e2d67fc7b99f56055e9d802b
+ /etc/shadow f1e7bbfa5f65b71996f68025f1afd3f5
+ /etc/profile 8f5f1cba04c145edbc3df230874dfb29
+ /etc/shells 725ba6f40dff0612f61ecd3f171bb3e1
+ /etc/sysctl.conf 5ef24a4c121d25a1a8a277ec9715a8ca
+ /etc/rc.local 6f8bfdaf36d3ec4aa9be6e96fa61d32b
+ /etc/sysupgrade.conf f91aef484370cefee501d64b5725c1d2
+ /etc/config/system d5bf45f641b29c80010c2a30982bd792
+Installed-Time: 1405046539
+
+Package: kmod-input-core
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196)
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: cgminer
+Version: 3.12.0-1
+Depends: libc, libcurl, libpthread, jansson, udev
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: netifd
+Version: 2013-08-29-814e09499e12edaea658f9f5594fe9917c0ecde4
+Depends: libc, libuci, libnl-tiny, libubus, ubus, ubusd, jshn
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046539
+Auto-Installed: yes
+
+Package: kmod-i2c-gpio-custom
+Version: 3.10.12-2
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196), kmod-i2c-core, kmod-i2c-gpio
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: uboot-envtools
+Version: 2013.07-1
+Depends: libc
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046541
+
+Package: dnsmasq
+Version: 2.66-3
+Depends: libc
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Conffiles:
+ /etc/config/dhcp 326e2116bd9bc3ecc5be4f75cd1e7647
+ /etc/dnsmasq.conf 7cf378e58d3fe5db31f4116a16c15c61
+Installed-Time: 1405046540
+
+Package: procd
+Version: 2013-09-17-f51f9cc5738d340423e44e678829402b367cf866-1
+Depends: libc, ubusd, ubus, libjson-script, ubox
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046539
+Auto-Installed: yes
+
+Package: luci-sgi-cgi
+Version: svn-r9909-1
+Depends: libc
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: ubusd
+Version: 2013-08-08-b20a8a01c7faea5bcc9d34d10dcf7736589021b8
+Depends: libc, libubox
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046539
+Auto-Installed: yes
+
+Package: jansson
+Version: 2.2.1-1
+Depends: libc
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046539
+Auto-Installed: yes
+
+Package: kmod-usb-hid
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196), kmod-usb-core, kmod-hid, kmod-input-core, kmod-input-evdev
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: kmod-i2c-core
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196)
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: kmod-usb2
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196), kmod-usb-core
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: firewall
+Version: 2013-08-14
+Depends: libc, libubox, libubus, libuci, libip4tc, libip6tc, libxtables, kmod-ipt-core, kmod-ipt-nat
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Conffiles:
+ /etc/config/firewall 9734df4698c5086988ef1b73f5f22f34
+ /etc/firewall.user f482960e5c24821f077e601d9a7f3068
+Installed-Time: 1405046540
+
+Package: luci-app-firewall
+Version: svn-r9909-1
+Depends: libc, firewall
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: luci-lib-ipkg
+Version: svn-r9909-1
+Depends: libc
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: libuci
+Version: 2013-06-11.1-1
+Depends: libc, libubox
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046539
+Auto-Installed: yes
+
+Package: liblua
+Version: 5.1.5-1
+Depends: libc
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: libip4tc
+Version: 1.4.20-1
+Depends: libc
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: kmod-ath9k
+Version: 3.10.12+2013-06-27-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196), kmod-ath9k-common
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: uci
+Version: 2013-06-11.1-1
+Depends: libc, libuci
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046541
+
+Package: lua
+Version: 5.1.5-1
+Depends: libc, liblua
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: wpad-mini
+Version: 20130807-1
+Depends: libc, libnl-tiny, libubus
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046541
+
+Package: kmod-input-evdev
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196), kmod-input-core
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: dropbear
+Version: 2012.55-2
+Depends: libc
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Conffiles:
+ /etc/dropbear/dropbear_rsa_host_key d41d8cd98f00b204e9800998ecf8427e
+ /etc/dropbear/dropbear_dss_host_key d41d8cd98f00b204e9800998ecf8427e
+ /etc/config/dropbear 682d9399be70f4b75b94025f27df929b
+Installed-Time: 1405046540
+
+Package: kmod-ledtrig-timer
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196)
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: kmod-crypto-aes
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196), kmod-crypto-core
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: mtd
+Version: 20
+Depends: libc
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046541
+
+Package: kmod-crypto-core
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196)
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: kmod-i2c-gpio
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196), kmod-i2c-algo-bit
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: luci-theme-base
+Version: svn-r9909-1
+Depends: libc
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046541
+
+Package: libjson-c
+Version: 0.11-2
+Depends: libc
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046539
+Auto-Installed: yes
+
+Package: libgcc
+Version: 4.6-linaro-1
+Provides:
+Status: install hold installed
+Essential: yes
+Architecture: ar71xx
+Installed-Time: 1405046539
+Auto-Installed: yes
+
+Package: libip6tc
+Version: 1.4.20-1
+Depends: libc
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: luci-proto-ppp
+Version: svn-r9909-1
+Depends: libc
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046541
+
+Package: luci-mod-admin-full
+Version: svn-r9909-1
+Depends: libc, luci-mod-admin-core, luci-lib-ipkg
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046541
+
+Package: libubox
+Version: 2013-08-01-04f194aa8a04926fe7f2e42bbf9ba6c62d49339e
+Depends: libc
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046539
+Auto-Installed: yes
+
+Package: kmod-leds-gpio
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196)
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: kmod-gpio-button-hotplug
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196)
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: luci-lib-web
+Version: svn-r9909-1
+Depends: libc, luci-lib-core, luci-lib-sys, luci-lib-nixio, luci-lib-core, luci-sgi-cgi
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Conffiles:
+ /etc/config/luci f5cecb0ba00886173676c81239b1bdc2
+Installed-Time: 1405046540
+
+Package: librt
+Version: 0.9.33.2-1
+Depends: libpthread
+Provides:
+Status: install hold installed
+Essential: yes
+Architecture: ar71xx
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: kmod-mac80211
+Version: 3.10.12+2013-06-27-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196), kmod-crypto-core, kmod-crypto-arc4, kmod-crypto-aes, kmod-cfg80211
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: kmod-usb-serial
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196), kmod-usb-core
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: libjson-script
+Version: 2013-08-01-04f194aa8a04926fe7f2e42bbf9ba6c62d49339e
+Depends: libc, libubox
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046539
+Auto-Installed: yes
+
+Package: libblobmsg-json
+Version: 2013-08-01-04f194aa8a04926fe7f2e42bbf9ba6c62d49339e
+Depends: libc, libjson-c, libubox
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046539
+Auto-Installed: yes
+
+Package: iptables
+Version: 1.4.20-1
+Depends: libc, kmod-ipt-core, libip4tc, libip6tc, libxtables
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: kmod-ipt-nathelper
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196), kmod-ipt-core, kmod-ipt-nat
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: jshn
+Version: 2013-08-01-04f194aa8a04926fe7f2e42bbf9ba6c62d49339e
+Depends: libc, libjson-c
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046539
+Auto-Installed: yes
+
+Package: udev
+Version: 173-1
+Depends: libc, librt
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Conffiles:
+ /etc/udev/udev.conf 8b024b79a468658332fbf2586737907e
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: kmod-ipt-core
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196)
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: kmod-ledtrig-default-on
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196)
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: libubus
+Version: 2013-08-08-b20a8a01c7faea5bcc9d34d10dcf7736589021b8
+Depends: libc, libubox
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046539
+Auto-Installed: yes
+
+Package: uhttpd
+Version: 2013-09-13-8eb20e0aad7412468975b2c9ce7e374ea3084e42
+Depends: libc, libubox
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Conffiles:
+ /etc/config/uhttpd cb1d8f7350ec70b76168176d9fdbbc22
+Installed-Time: 1405046541
+Auto-Installed: yes
+
+Package: libxtables
+Version: 1.4.20-1
+Depends: libc
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: zlib
+Version: 1.2.8-1
+Depends: libc
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046539
+Auto-Installed: yes
+
+Package: luci-lib-nixio
+Version: svn-r9909-1
+Depends: libc, luci-lib-core
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: luci-i18n-chinese
+Version: svn-r9909-1
+Depends: libc
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: luci
+Version: svn-r9909-1
+Depends: libc, uhttpd, uhttpd-mod-ubus, luci-mod-admin-full, luci-theme-bootstrap, luci-app-firewall, luci-proto-core, luci-proto-ppp, libiwinfo-lua
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046541
+
+Package: kmod-bitmain-asic
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196), kmod-usb-core
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: kmod-ath
+Version: 3.10.12+2013-06-27-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196), kmod-mac80211
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: ubox
+Version: 2013-09-17-cc07b0b7ac66d0e4a05470dd69a28305405cd7dd
+Depends: libc, libubox, ubusd, ubus, libuci
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046539
+Auto-Installed: yes
+
+Package: kernel
+Version: 3.10.12-1-a7214d0221355fb68288e7a77bac1196
+Depends: libc
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: libnl-tiny
+Version: 0.1-3
+Depends: libc
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046539
+Auto-Installed: yes
+
+Package: luci-proto-core
+Version: svn-r9909-1
+Depends: libc
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046541
+Auto-Installed: yes
+
+Package: kmod-nls-base
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196)
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: luci-i18n-english
+Version: svn-r9909-1
+Depends: libc
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: uhttpd-mod-ubus
+Version: 2013-09-13-8eb20e0aad7412468975b2c9ce7e374ea3084e42
+Depends: libc, uhttpd, libubus, libblobmsg-json
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046541
+Auto-Installed: yes
+
+Package: tcp-server
+Version: 1.0
+Depends: libc
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046541
+
+Package: kmod-hid
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196), kmod-input-core, kmod-input-evdev
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: kmod-ath9k-common
+Version: 3.10.12+2013-06-27-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196), kmod-ath
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: kmod-crypto-arc4
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196), kmod-crypto-core, kmod-crypto-manager
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: kmod-i2c-algo-bit
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196), kmod-i2c-core
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: kmod-cfg80211
+Version: 3.10.12+2013-06-27-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196), iw
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: luci-lib-core
+Version: svn-r9909-1
+Depends: libc, lua, libuci-lua, libubus-lua
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
+Package: pic-update
+Version: 1.0
+Depends: libc
+Provides:
+Status: install user installed
+Architecture: ar71xx
+Installed-Time: 1405046541
+
+Package: kmod-ipt-nat
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196), kmod-ipt-core, kmod-ipt-conntrack
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+Auto-Installed: yes
+
+Package: kmod-ledtrig-netdev
+Version: 3.10.12-1
+Depends: kernel (= 3.10.12-1-a7214d0221355fb68288e7a77bac1196)
+Provides:
+Status: install hold installed
+Architecture: ar71xx
+Installed-Time: 1405046540
+
