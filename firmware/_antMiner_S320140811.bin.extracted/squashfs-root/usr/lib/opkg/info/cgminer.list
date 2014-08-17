@@ -1,0 +1,7 @@
+/usr/bin/cgminer
+/etc/config/cgminer
+/usr/bin/compile_time
+/usr/bin/cgminer-monitor
+/usr/bin/cgminer-api
+/etc/config/asic-freq
+/etc/init.d/cgminer

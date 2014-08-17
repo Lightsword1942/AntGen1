@@ -1,0 +1,9 @@
+Package: tcp-server
+Version: 1.0
+Depends: libc
+Source: package/feeds/tcp-server
+Section: utils
+Architecture: ar71xx
+Installed-Size: 3663
+Description:  If you can’t figure out what this program does, you’re probably
+ brain-dead and need immediate medical attention.
